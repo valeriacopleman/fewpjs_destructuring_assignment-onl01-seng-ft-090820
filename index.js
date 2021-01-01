@@ -25,6 +25,35 @@ const k_muppet = {
   k_partner: 'Miss Piggy'
 };
 
+const [moo, neigh, baa, oink, cluck] = farmAnimals.split(' ')
+console.log(moo, neigh, baa, oink, cluck)
+
+const [Bessie, ,Dolly,Babe,Little] = farmAnimals.split(' ')
+console.log(Bessie,Dolly,Babe,Little)
+
+const [black_and_white, ,black,pink, ] = farmAnimals.split(' ')
+console.log(black_and_white,black,pink)
+
+const [red, orange, yellow, green, blue, indigo, violet] = colors
+console.log(red, orange, yellow, green, blue, indigo, violet)
+
+const [r, o, y, g, b, ,v] = colors
+console.log(r, o, y, g, b, v)
+
+const [ , , , , ,indg, ] = colors
+console.log(indg)
+
+const name = muppet.name;
+const color = muppet.color;
+const song = muppet.song;
+const partner = muppet.partner;
+const job = muppet.job;
+
+const k_color = k_muppet.k_color;
+const {song_2, song_4} = k_muppet.k_album.the_muppet_movie;
+const k_job = k_muppet.k_job;
+const k_partner = k_muppet.k_partner;
+
 // Strings
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
